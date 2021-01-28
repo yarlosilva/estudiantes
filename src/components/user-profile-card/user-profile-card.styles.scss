@@ -1,0 +1,43 @@
+.card-profile-image {
+  position: relative;
+}
+
+
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.5rem;
+}
+
+.card-profile-stats {
+  padding: 1rem 0;
+
+  & > div {
+    text-align: center;
+    margin-right: 1rem;
+    padding: 0.875rem;
+  }
+  & > div .heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: block;
+  }
+}
+
+.heading {
+    color: rgb(82, 95, 127);
+}
+
+.card-profile-image {
+    position: relative;
+
+     img {
+        width: 180px;
+        height: 180px;
+        border-radius: .375rem;
+        transform: translate(-50%,-30%);
+        position: absolute;
+        left: 50%;
+        transition: all .15s ease;
+    }
+}

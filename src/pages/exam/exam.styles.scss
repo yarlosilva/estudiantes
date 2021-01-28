@@ -1,0 +1,23 @@
+.student-class {
+  background: white;
+  padding: 1rem 1rem;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+  margin: 1.5rem 0px;
+  position: relative;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+      transform: translateY(-5px)
+  }
+
+  &__outlined {
+    display: block;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+

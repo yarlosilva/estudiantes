@@ -1,0 +1,14 @@
+.quiz-option {
+    background: #F3F3F3;
+    margin: 1rem 0;
+    padding: .8rem 0px;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+
+.active-option {
+    background-color: #3F3F3F;
+    color: white;
+    display: block;
+}

@@ -1,0 +1,128 @@
+.sidenav {
+  height: 100vh;
+  flex-basis: 250px;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+
+  @media only screen and (max-width: 800px) {
+    height: min-content;
+    flex-basis: 0;
+
+  }
+}
+.logo-box {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  @media only screen and (max-width: 800px) {
+    margin-bottom: 0;
+
+  }
+}
+.item {
+  font-size: 1rem;
+
+  & > a {
+    padding: 0.65rem 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    @media only screen and (max-width: 800px) {
+      padding: 0;
+  
+    }
+  
+    & > span {
+      margin-left: 1rem;
+    }
+  }
+}
+.fas {
+  font-size: 1.3rem;
+}
+
+.link1 {
+  color: rgb(94, 114, 228);
+}
+.link2 {
+  color: rgb(37, 37, 187);
+}
+.link3 {
+  color: orangered;
+}
+.link4 {
+  color: rgb(255, 214, 0);
+}
+.link5 {
+  color: rgb(245, 54, 92);
+}
+.link6 {
+  color: rgb(101, 208, 250);
+}
+.link7 {
+  color: tomato;
+}
+
+.link:link,
+.link:visited,
+.link {
+  padding: 0.65rem 1.5rem;
+  @media only screen and (max-width: 800px) {
+    padding: 0;
+
+  }
+  
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+  & > span {
+    margin-left: 1rem;
+  }
+}
+
+.f-fam {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14.4px;
+}
+
+.active {
+  padding: 0.65rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-left: 2px solid red;
+}
+
+.sidenav-items {
+  @media only screen and (max-width: 800px) {
+    display: flex;
+
+
+  } 
+
+  & > li {
+    @media only screen and (max-width: 800px) {
+      flex: 1;
+  
+  
+    }
+  }
+}
+
+.r {
+  @media only screen and (max-width: 800px) {
+   display: none !important;
+
+  }
+}
+
+.rr {
+  @media only screen and (max-width: 800px) {
+    margin: 0 !important;
+ 
+   }
+
+}
